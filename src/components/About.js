@@ -11,7 +11,7 @@ const MainContainer = () => {
         create amazing web experiences, beginning with deep market research, practical strategies, and professional execution.
         </div>
         <div className='buttons'>
-        <button className='btn1' type='submit' href=''>Explore Projects</button>
+        <button className='btn1' type='submit' href='Services.js'>Explore Projects</button>
         <button className='btn2'type='submit' href=''>About us </button>
       </div>
       </div>

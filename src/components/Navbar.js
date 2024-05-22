@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/navbar.css'
-// import backgroundImage from '../images/background.jpg'; // Import the image
-
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
@@ -10,9 +9,9 @@ const Navbar = () => {
         <label for="check" className='menu_icn'><i className="fas fa-bars"></i></label>
         <label className='logo'>Yanku</label>
         <ul className='list_container'>
-        <li><a className='active'href='a'>Home</a></li>
-        <li><a href=''>About us</a></li>
-        <li><a href=''>Services</a></li>
+        <li><Link to='/main'><a className='active'href=''>Home</a></Link></li>
+        <li><Link to='/about'><a href=''>About us</a></Link></li>
+        <li><Link to='/services'><a href=''>Services</a></Link></li>
         <li><a href=''>News</a></li>
         <li><a href=''>Contanct</a></li>
         </ul>
