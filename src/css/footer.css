@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+  
+}
+.footer_container {
+    background-color: #333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    flex: wrap;
+    
+  }
+.footer_1,.footer_1,.footer_1{
+    border:2px solid white;
+    flex: 50%;
+    height: 50vh;
+    border: 2px solid;
+
+}
+.footer_2{
+flex: 25%;
+border: 2px solid;
+}
+.footer_3{
+    flex: 25%;
+    border: 2px solid;
+
+}
+#heading1{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 67%;
+    font-size: 39px;
+    height: 11%; 
+}
+#team{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 65%;
+    color: white;
+}
+
+  
+  @media(max-width:911px){
+    .footer_container{
+        flex-direction:column;
+    }
+  }

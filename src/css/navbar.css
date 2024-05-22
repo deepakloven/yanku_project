@@ -97,7 +97,7 @@ a:hover {
         font-size: 20px;
     }
     a:hover {
-        background: none;
+        /* background: none; */
         color: white;
     }
     #check:checked ~ .list_container  {

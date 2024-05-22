@@ -5,6 +5,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Services from './components/Services';
+import Footer from './components/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +15,8 @@ root.render(
     {/* <App /> */}
     <Navbar/>
     <Home/>
+    <Services/>
+    <Footer/>
   </React.StrictMode>
 );
 
