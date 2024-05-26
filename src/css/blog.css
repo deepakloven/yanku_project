@@ -1,65 +1,66 @@
+/* blog.css */
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-.card-grid{
-    display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.card_container {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  justify-content: center; 
 }
-  
-  .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border:2px solid;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    color: black;
-    transform: rotateY(180deg);
-  }
-  .blog_container{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-  }
-  .btn-primary{
-    font-size: 30px;
-  }
-  button{
-    background-color: rgb(49, 49, 251);
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
+
+.card_main {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
 }
-  
+
+.card_main img {
+  width: 100%;
+  height: auto;
+}
+
+.card_main h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  padding: 0 1em;
+}
+
+.card_main p {
+  padding: 0 1em;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-more {
+  margin-bottom: 15px;
+}
+
+.btn-all {
+  display: block;
+  margin: 0 auto;
+}
