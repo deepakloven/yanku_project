@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/home.css'; 
 import herImg from '../images/hero.png';
+import Footer from './Footer';
+import Explore from './Buttons_work/Explore';
 const MainContainer = () => {
+  const[showExplore,setShowExplore]=useState(false);
+
+  const buttonClick=()=>{
+    setShowExplore(true);
+  } ;
   return (
+    <>
     <div className="main_container">
       <div className="left_container">
         <div className='text1'><h2>We do the work you stay focused on your customers.</h2></div>
@@ -11,7 +19,8 @@ const MainContainer = () => {
         create amazing web experiences, beginning with deep market research, practical strategies, and professional execution.
         </div>
         <div className='buttons'>
-        <button className='btn1' type='submit' href='Services.js'>Explore Projects</button>
+        <button className='btn1' type='button' onClick={buttonClick}>Explore Projects</button>
+        {showExplore && <Explore/>}
         <button className='btn2'type='submit' href=''>About us </button>
       </div>
       </div>
@@ -19,6 +28,8 @@ const MainContainer = () => {
       <img src={herImg} className='img1'/>
     </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

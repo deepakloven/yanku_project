@@ -1,9 +1,11 @@
 // Main.js
 import React from 'react';
 import '../css/main.css';
+import Footer from './Footer';
 
 const Main = () => {
   return (
+    <>
     <div className="idex_container">
       <div className="text_wrapper">
         <p><span className="highlight">C</span>reatin<span className="highlight">g</span></p>
@@ -12,6 +14,8 @@ const Main = () => {
         <p><span className="highlight">T</span>ogethe<span className="highlight">r</span></p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

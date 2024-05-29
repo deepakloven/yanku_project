@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 90px;
 }
 
 .card_main {
@@ -63,4 +63,17 @@ body {
 .btn-all {
   display: block;
   margin: 0 auto;
+  margin-bottom: 16px
+}
+.btn-less{
+  display: none;
+  margin: 0 auto;
+  margin-bottom: 16px
+}
+.main-line{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }

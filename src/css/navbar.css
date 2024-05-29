@@ -9,7 +9,7 @@ body {
     font-family: montserrat, sans-serif;
 } 
 .nav_container {
-    position: fixed;
+    /* position: fixed; */
     background: white;
     width: 100%;
     height: 60px;

@@ -9,7 +9,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Blog from './components/Blog';
+import News from './components/News';
 // import App from './App';
 
 
@@ -20,14 +20,13 @@ root.render(
   <Routes>
     <Route path='/main' element={<Main/>}/>
     <Route path='/about' element={<About/>}/>
-    {/* <Route path='/services' element={<Services/>}/> */}
-    {/* <Route path='/news' element={<News/>}/>
-    <Route path='/contact' element={<Contact/>}/> */}
+    <Route path='/services' element={<Services/>}/>
+     <Route path='/news' element={<News/>}/>
+    {/* <Route path='/contact' element={<Contact/>}/>  */}
     </Routes>
-    <Services/>
-    <Blog/>
+    {/* <Services/> */}
     {/* <App/> */}
-    <Footer/>
+    {/* <Footer/> */}
     </Router>
     
 );

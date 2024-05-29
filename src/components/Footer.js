@@ -12,18 +12,18 @@ const Footer = () => {
 
         <div className='footer_2'>
         <h3 id='heading2'>Services</h3>
-        <a  id='support_a'href=''>works</a> <br/>
-            <a  id='support_a'href=''>strategies</a>  <br/> 
-            <a  id='support_a'href=''>Release</a>   <br/>
-            <a  id='support_a'href=''>Mission</a>  
+        <a  id='support_a'href=''>>works</a> <br/>
+            <a  id='support_a'href=''>>strategies</a>  <br/> 
+            <a  id='support_a'href=''>>Release</a>   <br/>
+            <a  id='support_a'href=''>>Mission</a>  
         </div>
 
         <div className='footer_3'>
         <h3 id='heading2'>Supports</h3>
-            <a  id='support_a'href=''>Developer</a> <br/>
-            <a  id='support_a'href=''>Support</a>  <br/> 
-            <a  id='support_a'href=''>Customer</a>   <br/>
-            <a  id='support_a'href=''>Guide</a>  
+            <a  id='support_a'href=''>>Developer</a> <br/>
+            <a  id='support_a'href=''>>Support</a>  <br/> 
+            <a  id='support_a'href=''>>Customer</a>   <br/>
+            <a  id='support_a'href=''>>Guide</a>  
       
       
 </div>

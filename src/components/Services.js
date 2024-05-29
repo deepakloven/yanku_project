@@ -4,12 +4,14 @@ import img1 from '../images/icon-web-app.svg';
 import img2 from '../images/icon-seo.svg';
 import img3 from '../images/icon-game.svg';
 import img4 from '../images/icon-ai.svg';
+import Footer from './Footer';
 
 
 
 
 const Services = () => {
   return (
+    <>
     <div className='service_cont'>
        {/* <div id='text_one'><h2>what we do</h2></div> */}
         <div className='web_app'>
@@ -30,10 +32,11 @@ const Services = () => {
         <p>Advance autonomous technology make life simple</p>
          </div>
 
-
-
     </div>
+             <Footer/>
+</>
   )
+  
 }
 
 export default Services
